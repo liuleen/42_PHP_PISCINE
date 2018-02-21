@@ -1,48 +1,60 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    doft.css                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: rliu <marvin@42.fr>                        +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/02/20 19:40:39 by rliu              #+#    #+#              #
+#    Updated: 2018/02/20 19:40:41 by rliu             ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 body {
     background-color: #505050;
     margin: 18px 0 0 8px;
 }
 
-.page {
+.first {
     margin: 0 auto;
     width: 1420px;
 }
 
-header {
-    height: 137px;
-    width: 1420px;
+h1 {
+    height: 4.3em;
+    width: 44.56em;
     position: relative;
 }
 
-header, .menu, .menu2, .content, .form {
+h1, .menu, .menu2, .content, .form {
     border-radius: 9px;
     box-shadow: 10px 10px 10px #000000;
     background-color: #909090;
 }
 
-header img.logo {
-    height: 110px;
+h1 img.logo {
+    height: 4em;
     margin: 10px 0 0 10px;
 }
 
-header img.search {
+h1 img.search {
     position: absolute;
     top: 10px;
     right: 30px;
 }
 
-header img.delete, header img.refresh {
+h1 img.delete, h1 img.refresh {
     position: absolute;
     right: 10px;
     height: 20px;
     width: 20px;
 }
 
-header .delete {
+h1 .delete {
     bottom: 10px;
 }
 
-header .refresh {
+h1 .refresh {
     top: 10px;
 }
 
