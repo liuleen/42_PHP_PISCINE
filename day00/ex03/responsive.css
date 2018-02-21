@@ -1,0 +1,64 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    responsive.css                                     :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: rliu <marvin@42.fr>                        +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/02/19 20:59:56 by rliu              #+#    #+#              #
+#    Updated: 2018/02/19 21:00:28 by rliu             ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+
+html {
+				background-color: black;
+				background-size: cover;
+				height: 100%;
+			}
+			body {
+				width: 90%;
+				width: 90vw;
+				margin: 1vh auto;
+				color: white;
+				text-align: center;
+			}
+			h1 {
+				color:DarkTurquoise; 
+				text-align: center;
+				font-family: Impact, fantasy; 
+			}
+			h2 {
+				font-size: .50em;
+				color: black;
+				text-align: right;
+			}
+			h3 {
+				font-size: .50em;
+				color: black;
+				text-align: left;
+			}
+			.box {
+				  background-color: #87CEFA;
+				  color: black;
+				  border: 2px solid black;
+				  padding: .05em;
+				  font-size: 1vw;
+				  font-weight: bold;
+			}
+			.col {
+				text-align: center;
+			}
+			.wrapper {
+				  display: grid;
+				  grid-template-columns: 1fr repeat(18, 1fr) 1fr;
+				  background-color: black;
+			}
+			.empty {
+				 background-color: black;
+				  color: white;
+				  border: 2px solid black;
+				  /*padding: .05em;*/
+				  font-size: 1vw;
+				  font-weight: bold;
+			}
