@@ -15,18 +15,13 @@ body {
     margin: 18px 0 0 8px;
 }
 
-.first {
-    margin: 0 auto;
-    width: 1420px;
-}
-
 h1 {
     height: 4.3em;
     width: 44.56em;
     position: relative;
 }
 
-h1, .menu, .menu2, .content, .form {
+h1, .section, .section2, .meat{
     border-radius: 9px;
     box-shadow: 10px 10px 10px #000000;
     background-color: #909090;
@@ -37,28 +32,18 @@ h1 img.logo {
     margin: 10px 0 0 10px;
 }
 
-h1 img.search {
+h1 img.mag {
     position: absolute;
     top: 10px;
     right: 30px;
 }
 
-h1 img.delete, h1 img.refresh {
-    position: absolute;
-    right: 10px;
-    height: 20px;
-    width: 20px;
+.first {
+    margin: 0 auto;
+    width: 1420px;
 }
 
-h1 .delete {
-    bottom: 10px;
-}
-
-h1 .refresh {
-    top: 10px;
-}
-
-.menu{
+.section{
     width: 108px;
     height: 410px;
     float: left;
@@ -66,7 +51,12 @@ h1 .refresh {
     padding: 15px 0 0 32px;
 }
 
-.menu img {
+.section img {
+    width: 70px;
+    margin-bottom: 6px;
+}
+
+.section2 img {
     width: 70px;
     margin-bottom: 6px;
 }
@@ -76,34 +66,7 @@ h1 .refresh {
     margin-bottom: 6px;
 }
 
-.menu img.selected {
-    border: 5px solid red;
-    margin: -5px 0 1px -5px;
-    border-radius: 5px;
-}
-
-.menu2{
-    width: 105px;
-    height: 410px;
-    float: left;
-    margin: 20px 0 0 30px;
-    padding: 15px 0 0 35px;
-}
-
-.menu2 .wall {
-    content: '';
-    background-image: url('resources/brick.jpg');
-    width: 120px;
-    height: 70px;
-    margin:-5px 0 0 -25px;
-}
-
-.menu2 img {
-    width: 70px;
-    margin-bottom: 6px;
-}
-
-.content {
+.meat {
     margin: 20px 0 0 30px;
     width: 1020px;
     height: 582px;
@@ -111,61 +74,30 @@ h1 .refresh {
     position: relative;
 }
 
-.content img {
+.meat img {
     margin: 10px;
     width: 1000px;
     height: 562px;
 }
 
-.form {
-    background-color: #88ff89;
-    width: 500px;
-    height: 150px;
-    position: absolute;
-    bottom: -94px;
-    left: -245px;
-    padding: 10px;
-    font-family: arial;
-    font-size: 16px;
-    font-stretch: expanded !important;
-    letter-spacing: 1px;
-    font-weight: 300;
+.section img.selected {
+    border: 5px solid red;
+    margin: -5px 0 1px -5px;
+    border-radius: 5px;
 }
 
-.form span.big {
-    font-family: Times;
-    font-size: 31px;
+.section2{
+    width: 105px;
+    height: 410px;
+    float: left;
+    margin: 20px 0 0 30px;
+    padding: 15px 0 0 35px;
 }
 
-.form span.shadow {
-    text-shadow: 5px 5px 5px #ff0000;
-}
-
-.form span.italic {
-    font-style: italic;
-}
-
-.form form {
-    height: 22px;
-}
-
-.form form input[type="text"] {
-    margin-left: 2px;
-    width: 376px;
-    border: 2px solid #9d969d;
-    border-bottom-color: #eeeeee;
-    border-right-color: #eeeeee;
-    height: 15px;
-}
-
-.form form input[type="submit"] {
-    border: 1px solid #a8a4a5;
-    border-radius: 1px;
-    background-color: #f4eff3;
-    background: #0079FF;
-    margin-left: 4px;
-    height: 22px;
-    font-size:12px;
-    letter-spacing: 1px;
-    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f4eff3), to(#dcdcdc));
+.section2 .wall {
+    content: '';
+    background-image: url('resources/brick.jpg');
+    width: 120px;
+    height: 70px;
+    margin:-5px 0 0 -25px;
 }
